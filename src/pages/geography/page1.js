@@ -6,7 +6,7 @@ export default function GeographyPage1() {
 		<ContentPageLayout
 			title="Geography: Location"
 			subtitle="Understanding the physical attributes of the Bermuda Triangle"
-			nextPage={{ path: "/geography/page2", label: "Ocean Conditions" }}
+			nextPage={{ path: "./geography/page2", label: "Ocean Conditions" }}
 		>
 			<div className="space-y-4">
 				<p className="text-gray-300">

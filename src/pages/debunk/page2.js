@@ -6,8 +6,8 @@ export default function DebunkPage2() {
 		<ContentPageLayout
 			title="Debunking Theory 2"
 			subtitle="Scientific explanations that challenge popular beliefs"
-			prevPage={{ path: "/debunk/page1", label: "Debunking Theory 1" }}
-			nextPage={{ path: "/debunk/page3", label: "Debunking Theory 2" }}
+			prevPage={{ path: "./debunk/page1", label: "Debunking Theory 1" }}
+			nextPage={{ path: "./debunk/page3", label: "Debunking Theory 2" }}
 		>
 			<div className="space-y-4">
 				<p className="text-gray-300">

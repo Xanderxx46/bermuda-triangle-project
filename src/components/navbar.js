@@ -8,7 +8,7 @@ export default function Navbar() {
 
 	// Navigation items structure
 	const navItems = [
-		{ id: "home", label: "Home", icon: <Home size={18} />, path: "/" },
+		{ id: "home", label: "Home", icon: <Home size={18} />, path: "./" },
 		{
 			id: "geography",
 			label: "Geography",
@@ -17,17 +17,17 @@ export default function Navbar() {
 				{
 					id: "geography-1",
 					label: "Location & Boundaries",
-					path: "/geography/page1",
+					path: "./geography/page1",
 				},
 				{
 					id: "geography-2",
 					label: "Ocean Conditions",
-					path: "/geography/page2",
+					path: "./geography/page2",
 				},
 				{
 					id: "geography-3",
 					label: "Surrounding Regions",
-					path: "/geography/page3",
+					path: "./geography/page3",
 				},
 			],
 		},
@@ -36,9 +36,9 @@ export default function Navbar() {
 			label: "Theories",
 			icon: <BookOpen size={18} />,
 			subItems: [
-				{ id: "theories-1", label: "Theory 1", path: "/theories/page1" },
-				{ id: "theories-2", label: "Theory 2", path: "/theories/page2" },
-				{ id: "theories-3", label: "Theory 3", path: "/theories/page3" },
+				{ id: "theories-1", label: "Theory 1", path: "./theories/page1" },
+				{ id: "theories-2", label: "Theory 2", path: "./theories/page2" },
+				{ id: "theories-3", label: "Theory 3", path: "./theories/page3" },
 			],
 		},
 		{
@@ -46,16 +46,16 @@ export default function Navbar() {
 			label: "Debunking",
 			icon: <AlertTriangle size={18} />,
 			subItems: [
-				{ id: "debunk-1", label: "Debunking Theory 1", path: "/debunk/page1" },
-				{ id: "debunk-2", label: "Debunking Theory 2", path: "/debunk/page2" },
-				{ id: "debunk-3", label: "Debunking Theory 3", path: "/debunk/page3" },
+				{ id: "debunk-1", label: "Debunking Theory 1", path: "./debunk/page1" },
+				{ id: "debunk-2", label: "Debunking Theory 2", path: "./debunk/page2" },
+				{ id: "debunk-3", label: "Debunking Theory 3", path: "./debunk/page3" },
 			],
 		},
 		{
 			id: "sources",
 			label: "Sources",
 			icon: <Home size={18} />,
-			path: "/sources",
+			path: "./sources",
 		},
 	];
 

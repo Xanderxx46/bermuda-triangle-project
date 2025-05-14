@@ -6,7 +6,7 @@ export default function GeographyPage3() {
 		<ContentPageLayout
 			title="Geography: Surrounding Regions"
 			subtitle="Understanding the physical attributes of the Bermuda Triangle"
-			prevPage={{ path: "/geography/page2", label: "Ocean Conditions" }}
+			prevPage={{ path: "./geography/page2", label: "Ocean Conditions" }}
 		>
 			<div className="space-y-4">
 				<p className="text-gray-300">

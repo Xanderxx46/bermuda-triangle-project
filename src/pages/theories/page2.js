@@ -6,8 +6,8 @@ export default function TheoriesPage2() {
 		<ContentPageLayout
 			title="Theory 2"
 			subtitle="Exploring popular explanations for the Bermuda Triangle mystery"
-			prevPage={{ path: "/theories/page1", label: "Theory 1" }}
-			nextPage={{ path: "/theories/page3", label: "Theory 3" }}
+			prevPage={{ path: "./theories/page1", label: "Theory 1" }}
+			nextPage={{ path: "./theories/page3", label: "Theory 3" }}
 		>
 			<div className="space-y-4">
 				<p className="text-gray-300">

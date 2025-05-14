@@ -36,19 +36,19 @@ export default function HomePage() {
 						title="Geography"
 						description="Explore the location, boundaries, and unique environmental features of the Bermuda Triangle region."
 						icon={<Map size={24} className="text-red-800" />}
-						linkTo="/geography/page1"
+						linkTo="./geography/page1"
 					/>
 					<SectionPreview
 						title="Theories"
 						description="Discover the various theories that have attempted to explain the mysterious disappearances in the area."
 						icon={<BookOpen size={24} className="text-red-800" />}
-						linkTo="/theories/page1"
+						linkTo="./theories/page1"
 					/>
 					<SectionPreview
 						title="Debunking"
 						description="Examine the scientific evidence and explanations that challenge the mythology surrounding the Triangle."
 						icon={<AlertTriangle size={24} className="text-red-800" />}
-						linkTo="/debunk/page1"
+						linkTo="./debunk/page1"
 					/>
 				</div>
 			</div>
