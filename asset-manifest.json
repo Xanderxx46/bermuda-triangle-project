@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bermuda-triangle-project/static/css/main.242398df.css",
-    "main.js": "/bermuda-triangle-project/static/js/main.65c4d516.js",
+    "main.js": "/bermuda-triangle-project/static/js/main.dbda8fc9.js",
     "static/js/453.24836a48.chunk.js": "/bermuda-triangle-project/static/js/453.24836a48.chunk.js",
     "index.html": "/bermuda-triangle-project/index.html",
     "main.242398df.css.map": "/bermuda-triangle-project/static/css/main.242398df.css.map",
-    "main.65c4d516.js.map": "/bermuda-triangle-project/static/js/main.65c4d516.js.map",
+    "main.dbda8fc9.js.map": "/bermuda-triangle-project/static/js/main.dbda8fc9.js.map",
     "453.24836a48.chunk.js.map": "/bermuda-triangle-project/static/js/453.24836a48.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.242398df.css",
-    "static/js/main.65c4d516.js"
+    "static/js/main.dbda8fc9.js"
   ]
 }
